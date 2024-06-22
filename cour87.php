@@ -16,9 +16,9 @@
   --- Length => Maximum Number Of Bytes To Write
 */
 
-$handle = fopen("elzero.txt", "r");
+$handle = fopen("elzero.txt", "a");
 
-fwrite($handle, "\r\nThis Is A New Line 1", 5);
-fwrite($handle, "\r\nThis Is A New Line 2");
+fwrite($handle, "\r\nThis Is A New Line 1", 5);//thi
+//fwrite($handle, "\r\nThis Is A New Line 2");
 
 fclose($handle);

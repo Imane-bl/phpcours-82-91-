@@ -22,8 +22,9 @@
 
   $handle = fopen("elzero.txt", "r");
 
-  // echo fgets($handle, 4);
+  // echo fgets($handle, 4);taille facultatif
+  //donne moi ligne 4 la taille length
 
-  echo fread($handle, 1024);
+  echo fread($handle, 1024);//la taille obligatoire
 
   fclose($handle);
