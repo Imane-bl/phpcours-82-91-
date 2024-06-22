@@ -36,7 +36,8 @@
     --- Length => Maximum Number Of Bytes To Read
     - fclose(File[Required])
     --- Closes An Open File Pointer
-      87####File System Functions
+      
+  87############File System Functions
   - Fopen(FileName[Required], Mode[Required], IncludePath[Optional], Context[Optional])
 
   --- Mode
