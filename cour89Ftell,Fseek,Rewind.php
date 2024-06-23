@@ -20,7 +20,7 @@
 
 $handle = fopen("elzero.txt", "r");
 
-// echo ftell($handle) . "<br>"; // 0
+ //echo ftell($handle) . "<br>"; // 0
 
 // echo fgets($handle) . "<br>";
 
@@ -31,6 +31,7 @@ $handle = fopen("elzero.txt", "r");
 // echo fgets($handle) . "<br>"; // Elzero
 
 // echo ftell($handle) . "<br>"; // 8
+//fseek($handel,0)--> comme ftell
 
 echo fgets($handle) . "<br>"; // Elzero
 
@@ -40,4 +41,5 @@ echo fgets($handle) . "<br>"; // zero Web School
 
 fclose($handle);
 
-echo mb_strlen("School", "8bit");
+echo mb_strlen("School", "8bit");//6
+echo mb_strlen("Schoo l\r\n", "8bit");//9 espace \n \r
