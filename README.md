@@ -36,3 +36,17 @@
     --- Length => Maximum Number Of Bytes To Read
     - fclose(File[Required])
     --- Closes An Open File Pointer
+      
+  87############File System Functions
+  - Fopen(FileName[Required], Mode[Required], IncludePath[Optional], Context[Optional])
+
+  --- Mode
+
+  --- [a] For Write => Pointer At The End + Create If Not Exists
+  --- [a+] For Read & Write => Pointer At The End + Create If Not Exists
+  --- [x] Create + Open For Write => Pointer At The Beginning
+  --- [x+] Create + Open For Read & Write => Pointer At The Beginning
+
+  - fwrite(File[Required], String[Required], Length[Optional])
+  --- Write To An Open File
+  --- Length => Maximum Number Of Bytes To Write
