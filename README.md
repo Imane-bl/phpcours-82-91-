@@ -50,3 +50,22 @@
   - fwrite(File[Required], String[Required], Length[Optional])
   --- Write To An Open File
   --- Length => Maximum Number Of Bytes To Write
+
+
+88#########File System Functions
+  - Fopen(FileName[Required], Mode[Required], IncludePath[Optional], Context[Optional])
+
+  --- [c]
+  ------ For Write
+  ------ Create If Not Exists
+  ------ No Problem If Its Exists
+  ------ No Truncation
+  ------ Pointer At The Beginning
+  --- [c+] For Read & Write
+
+  - file(File[Required], Flag[Optional], Context[Optional])
+  --- Read Entire File Into Array
+  - feof(File[Required])
+  --- Tests For EOF On A File Pointer
+*/
+
