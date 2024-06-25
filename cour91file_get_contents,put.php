@@ -34,4 +34,4 @@ echo get_include_path() . "<br>";//C:\xampp\php\PEAR
 
 echo file_put_contents("elzero.txt", "\r\nThis Is New Line", FILE_APPEND);
 
-//o elzero web school This Is New Lin
+//o elzero web school This Is New Lin   byte 18
